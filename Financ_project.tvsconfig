@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.Financ" Type="System.String" Value="Financ" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucCCusto" Type="System.String" Value="ucCCusto" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uCadPadrao" Type="System.String" Value="uCadPadrao" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uSplash" Type="System.String" Value="uSplash" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.urPlano" Type="System.String" Value="urPlano" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.urAnual" Type="System.String" Value="urAnual" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.urAnalise" Type="System.String" Value="urAnalise" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.upTransf" Type="System.String" Value="upTransf" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uProcedimentos" Type="System.String" Value="uProcedimentos" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uPrincipal" Type="System.String" Value="uPrincipal" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.upPlano" Type="System.String" Value="upPlano" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.upPagRec" Type="System.String" Value="upPagRec" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.upMovFin" Type="System.String" Value="upMovFin" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uPesqPadrao" Type="System.String" Value="uPesqPadrao" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.upConta" Type="System.String" Value="upConta" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.upCCusto" Type="System.String" Value="upCCusto" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.upCateg" Type="System.String" Value="upCateg" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uLogin" Type="System.String" Value="uLogin" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ufrmPeriodo" Type="System.String" Value="ufrmPeriodo" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ufrmConta" Type="System.String" Value="ufrmConta" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ufrmCCusto" Type="System.String" Value="ufrmCCusto" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ufrmCateg" Type="System.String" Value="ufrmCateg" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.udmRelatorio" Type="System.String" Value="udmRelatorio" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.udmFinanc" Type="System.String" Value="udmFinanc" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucUsuario" Type="System.String" Value="ucUsuario" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucTransf" Type="System.String" Value="ucTransf" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucPlano" Type="System.String" Value="ucPlano" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucPagRec" Type="System.String" Value="ucPagRec" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uConstante" Type="System.String" Value="uConstante" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucMovFin" Type="System.String" Value="ucMovFin" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucConta" Type="System.String" Value="ucConta" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ucCateg" Type="System.String" Value="ucCateg" Category="General" IsBrowsable="False" />
+</TgConfig>

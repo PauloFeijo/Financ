@@ -1,0 +1,262 @@
+gbak:opened file financ.gbk
+gbak:transportable backup -- data in XDR format
+gbak:		backup file is compressed
+gbak:created database localhost/3050:D:\Projetos\Financ\fontes-10\financ2.fdb, page_size 16384 bytes
+gbak:started transaction
+gbak:restoring domain C
+gbak:restoring domain DH
+gbak:restoring domain RDB$1
+gbak:restoring domain DS_100
+gbak:restoring domain DS_15
+gbak:restoring domain DS_20
+gbak:restoring domain DT
+gbak:restoring domain NR
+gbak:restoring domain QT_06_03
+gbak:restoring domain VL_08_02
+gbak:restoring domain DS_60
+gbak:restoring table USUARIO
+gbak:    restoring column ID_CCPAD
+gbak:    restoring column ID_CONPAD
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column CD_SENHA
+gbak:    restoring column NM_NOME
+gbak:    restoring column DS_PERG
+gbak:    restoring column DS_RESP
+gbak:restoring table BENS
+gbak:    restoring column VL_AQUISICAO
+gbak:    restoring column VL_ATUAL
+gbak:    restoring column ID_BEM
+gbak:    restoring column DT_AQUISICAO
+gbak:    restoring column DT_VENDA
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_BEM
+gbak:restoring table CATEGORIA
+gbak:    restoring column ID_CATEG
+gbak:    restoring column ID_CATPAI
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_CATEG
+gbak:    restoring column FL_TIPO
+gbak:    restoring column FL_ATIVO
+gbak:restoring table PAGRECEB
+gbak:    restoring column VL_VALOR
+gbak:    restoring column ID_PAGRECEB
+gbak:    restoring column ID_CATEG
+gbak:    restoring column DT_VENCTO
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_DESCRI
+gbak:    restoring column FL_TIPO
+gbak:    restoring column NR_DOCTO
+gbak:restoring table PLANO
+gbak:    restoring column VL_VALOR
+gbak:    restoring column ID_PLANO
+gbak:    restoring column ID_CATEG
+gbak:    restoring column ID_CCUSTO
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_PLANO
+gbak:    restoring column FL_ALERTA
+gbak:restoring table CCUSTO
+gbak:    restoring column ID_CCUSTO
+gbak:    restoring column ID_CCPAI
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_CCUSTO
+gbak:    restoring column FL_ATIVO
+gbak:restoring table MOVIMENTO
+gbak:    restoring column VL_MOVIM
+gbak:    restoring column VL_JUROS
+gbak:    restoring column VL_DESCON
+gbak:    restoring column ID_PAGRECEB
+gbak:    restoring column ID_MOVIM
+gbak:    restoring column ID_CONTA
+gbak:    restoring column DT_MOVIM
+gbak:    restoring column ID_CATEG
+gbak:    restoring column ID_CCUSTO
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_MOVIM
+gbak:    restoring column FL_TIPO
+gbak:restoring table CONTA
+gbak:    restoring column ID_CONTA
+gbak:    restoring column NR_CONTA
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_CONTA
+gbak:    restoring column FL_ATIVO
+gbak:restoring table TRANSFERENCIA
+gbak:    restoring column VL_TRANSF
+gbak:    restoring column DT_TRANSF
+gbak:    restoring column ID_TRANSFER
+gbak:    restoring column ID_MOVDEB
+gbak:    restoring column ID_MOVCRE
+gbak:    restoring column CD_USUARIO
+gbak:    restoring column DS_TRANSF
+gbak:restoring generator GEN_CATEGORIA value: 62
+gbak:restoring generator GEN_TRANSF value: 221
+gbak:restoring generator GEN_CONTA value: 16
+gbak:restoring generator GEN_MOVIMENTO value: 1480
+gbak:restoring generator GEN_PAGRECEB value: 446
+gbak:restoring generator GEN_DOCPREC value: 24
+gbak:restoring generator GEN value: 300
+gbak:restoring generator GEN_CCUSTO value: 7
+gbak:restoring generator GEN_PLANO value: 28
+gbak:restoring generator GEN_BENS value: 9
+gbak:    committing metadata
+gbak:    restoring index TRANSFERENCIA_ID_MOVCRE
+gbak:    restoring index TRANSFERENCIA_ID_MOVDEB
+gbak:    restoring index PK_TRANSFERENCIA
+gbak:restoring data for table TRANSFERENCIA
+gbak:   181 records restored
+gbak:    restoring index CONTA_CD_USUARIO
+gbak:    restoring index PK_CONTA
+gbak:restoring data for table CONTA
+gbak:   6 records restored
+gbak:    restoring index PK_MOVIMENTO
+gbak:    restoring index MOVIMENTO_ID_CATEG
+gbak:    restoring index MOVIMENTO_ID_CCUSTO
+gbak:    restoring index MOVIMENTO_CD_USUARIO
+gbak:    restoring index MOVIMENTO_ID_CONTA
+gbak:    restoring index MOVIMENTO_ID_PAGRECEB
+gbak:restoring data for table MOVIMENTO
+gbak:   1316 records restored
+gbak:    restoring index PK_CCUSTO
+gbak:    restoring index CCUSTO_CD_USUARIO
+gbak:    restoring index CCUSTO_ID_CCUSTO
+gbak:restoring data for table CCUSTO
+gbak:   6 records restored
+gbak:    restoring index PK_PLANO
+gbak:    restoring index PLANO_CD_USUARIO
+gbak:    restoring index PLANO_ID_CATEG
+gbak:    restoring index PLANO_ID_CCUSTO
+gbak:restoring data for table PLANO
+gbak:   11 records restored
+gbak:    restoring index PK_PAGRECEB
+gbak:    restoring index PAGRECEB_CD_USUARIO
+gbak:    restoring index PAGRECEB_ID_CATEG
+gbak:restoring data for table PAGRECEB
+gbak:   378 records restored
+gbak:    restoring index PK_CATEGORIA
+gbak:    restoring index CATEGORIA_CD_USUARIO
+gbak:    restoring index CATEGORIA_ID_CATPAI
+gbak:restoring data for table CATEGORIA
+gbak:   42 records restored
+gbak:    restoring index RDB$PRIMARY1
+gbak:    restoring index BENS_CD_USUARIO
+gbak:restoring data for table BENS
+gbak:   5 records restored
+gbak:    restoring index PK_USUARIO
+gbak:    restoring index USUARIO_ID_CCPAD
+gbak:    restoring index USUARIO_ID_CONPAD
+gbak:restoring data for table USUARIO
+gbak:   2 records restored
+gbak:    restoring trigger USUARIO_BD0
+gbak:    restoring trigger CHECK_14
+gbak:    restoring trigger CHECK_15
+gbak:    restoring trigger CHECK_16
+gbak:    restoring trigger CHECK_17
+gbak:    restoring trigger CHECK_18
+gbak:    restoring trigger USUARIO_AI0
+gbak:    restoring trigger CHECK_1
+gbak:    restoring trigger CHECK_2
+gbak:    restoring trigger CHECK_3
+gbak:    restoring trigger CHECK_4
+gbak:    restoring trigger CHECK_5
+gbak:    restoring trigger CHECK_6
+gbak:    restoring trigger CHECK_7
+gbak:    restoring trigger CHECK_8
+gbak:    restoring trigger CHECK_9
+gbak:    restoring trigger CHECK_10
+gbak:    restoring trigger CHECK_11
+gbak:    restoring trigger CHECK_12
+gbak:    restoring trigger CHECK_13
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user PUBLIC
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user PUBLIC
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user PUBLIC
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:creating indexes
+gbak:    activating and creating deferred index PK_TRANSFERENCIA
+gbak:    activating and creating deferred index PK_CONTA
+gbak:    activating and creating deferred index PK_MOVIMENTO
+gbak:    activating and creating deferred index PK_CCUSTO
+gbak:    activating and creating deferred index PK_PLANO
+gbak:    activating and creating deferred index PK_PAGRECEB
+gbak:    activating and creating deferred index PK_CATEGORIA
+gbak:    activating and creating deferred index RDB$PRIMARY1
+gbak:    activating and creating deferred index PK_USUARIO
+gbak:    activating and creating deferred index CONTA_CD_USUARIO
+gbak:    activating and creating deferred index PAGRECEB_CD_USUARIO
+gbak:    activating and creating deferred index TRANSFERENCIA_ID_MOVCRE
+gbak:    activating and creating deferred index TRANSFERENCIA_ID_MOVDEB
+gbak:    activating and creating deferred index CATEGORIA_CD_USUARIO
+gbak:    activating and creating deferred index CATEGORIA_ID_CATPAI
+gbak:    activating and creating deferred index PAGRECEB_ID_CATEG
+gbak:    activating and creating deferred index CCUSTO_CD_USUARIO
+gbak:    activating and creating deferred index CCUSTO_ID_CCUSTO
+gbak:    activating and creating deferred index USUARIO_ID_CCPAD
+gbak:    activating and creating deferred index USUARIO_ID_CONPAD
+gbak:    activating and creating deferred index PLANO_CD_USUARIO
+gbak:    activating and creating deferred index PLANO_ID_CATEG
+gbak:    activating and creating deferred index MOVIMENTO_ID_CCUSTO
+gbak:    activating and creating deferred index MOVIMENTO_CD_USUARIO
+gbak:    activating and creating deferred index MOVIMENTO_ID_CONTA
+gbak:    activating and creating deferred index MOVIMENTO_ID_PAGRECEB
+gbak:    activating and creating deferred index PLANO_ID_CCUSTO
+gbak:    activating and creating deferred index MOVIMENTO_ID_CATEG
+gbak:    activating and creating deferred index BENS_CD_USUARIO
+gbak:    committing metadata
+gbak:finishing, closing, and going home
