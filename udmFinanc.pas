@@ -186,6 +186,7 @@ type
     procedure BensVL_AQUISICAOValidate(Sender: TField);
     procedure BensDT_VENDAValidate(Sender: TField);
     procedure BensDT_AQUISICAOValidate(Sender: TField);
+    procedure MovimentoDS_CATEGChange(Sender: TField);
   private
     { Private declarations }
     procedure procInsereMascara;
@@ -577,8 +578,8 @@ end;
 
 procedure TdmFinanc.BensDT_VENDAValidate(Sender: TField);
 begin
-  if (not BensDT_VENDA.IsNull) and (BensDT_VENDA.AsDateTime < BensDT_AQUISICAO.AsDateTime) then
-    raise Exception.Create('Data de Venda não pode ser menor que a data de aquisição');
+  //if (not BensDT_VENDA.IsNull) and (BensDT_VENDA.AsDateTime < BensDT_AQUISICAO.AsDateTime) then
+  //  raise Exception.Create('Data de Venda não pode ser menor que a data de aquisição');
 end;
 
 procedure TdmFinanc.BensVL_AQUISICAOValidate(Sender: TField);
@@ -649,6 +650,12 @@ begin
   if ((MovimentoFL_TIPO.AsString = 'R') and (MovimentoVL_MOVIM.AsFloat > 0)) or
      ((MovimentoFL_TIPO.AsString = 'D') and (MovimentoVL_MOVIM.AsFloat < 0)) then
      MovimentoVL_MOVIM.AsFloat := MovimentoVL_MOVIM.AsFloat * -1;
+end;
+
+procedure TdmFinanc.MovimentoDS_CATEGChange(Sender: TField);
+begin
+  if dmFinanc.MovimentoDS_MOVIM.IsNull then
+    dmFinanc.MovimentoDS_MOVIM.AsString := dmFinanc.MovimentoDS_CATEG.AsString;
 end;
 
 procedure TdmFinanc.MovimentoFL_TIPOGetText(Sender: TField; var Text: string;

@@ -5,7 +5,7 @@ interface
 uses Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, Mask, DBCtrls, Buttons, ExtCtrls,
   IBX.IBDataBase, DBGrids, Grids,DB,IBX.IBCustomDataSet,DateUtils, DataSnap.DBClient,
-  Vcl.OleCtnrs, System.UITypes, IBX.IBQuery, ComObj;
+  Vcl.OleCtnrs, System.UITypes, IBX.IBQuery, ComObj, MidasLib;
 
 var CD_USUARIO_LOGADO : string ;
      corCampoRequerido : TColor = clSkyBlue;

@@ -190,6 +190,7 @@ object dmFinanc: TdmFinanc
       DisplayLabel = 'Descri'#231#227'o da Categoria'
       FieldName = 'DS_CATEG'
       Origin = '"CATEGORIA"."DS_CATEG"'
+      OnChange = MovimentoDS_CATEGChange
       Size = 60
     end
     object MovimentoVL_MOVIM: TIBBCDField

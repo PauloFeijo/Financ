@@ -1,0 +1,9 @@
+*.dcu
+*.fdb
+*.FDB
+*.zip
+*.exe
+*.identcache
+*.res
+*.dll
+*__history/*
